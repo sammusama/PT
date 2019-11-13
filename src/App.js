@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-import Customerlist from './components/Customerlist';
-import Traininglist from './components/Traininglist';
+import ResponsiveDrawer from './navi/Drawer';
 
 
 function App() {
   return (
     <div className="App">
-      <Customerlist />
-      <Traininglist />
+      <ResponsiveDrawer />
     </div>
   );
 }
